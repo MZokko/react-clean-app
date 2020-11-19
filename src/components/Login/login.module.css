@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content:space-evenly;
+  padding: 10px;
+}
