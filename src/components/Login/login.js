@@ -1,15 +1,17 @@
 import React from 'react';
 import classes from './login.module.css';
+//axios
+import axios from 'axios';
 //material ui
 import Paper from '@material-ui/core/Paper';
 import { Typography, Button, TextField } from '@material-ui/core';
-//firebase firebase auth
-import * as firebaseui from 'firebaseui';
 
 const login = () => {
+    //axios
+    const axios = require('axios');
   //handlers
-  newAccOnClickHandler = () => {};
   
+
   return (
     <div className={classes.root}>
       <Paper elevation={3}>
@@ -24,7 +26,7 @@ const login = () => {
             <Button>connect</Button>
             <br />
           </form>
-          <Button onClick={newAccOnClickHandler()}>new account</Button>
+          <Button >new account</Button>
           <Button color='primary'>Login with Facebook</Button>
           <Button color='secondary'>Login with Gmail</Button>
         </div>

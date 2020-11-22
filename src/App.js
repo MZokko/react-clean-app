@@ -1,4 +1,5 @@
-//npm: (REDUX) (AXIOS) (FIREBASE FIREBASE AUTH) (matertial ui)
+
+
 
 import './App.css';
 import Login from './components/Login/login';
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <Login/>
       {/* <div>
         <NewAccount/>
